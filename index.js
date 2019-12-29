@@ -1,17 +1,17 @@
 var katzDeli = []
 
-function takeANumber(deliLine,Name){
-  deliLine.push(`${Name}`)
-  return(`Welcome, ${Name}. You are number ${deliLine.length} in line.`)
+function takeANumber(deliPeople,Name){
+  deliPeople.push(`${Name}`)
+  return(`Welcome, ${Name}. You are number ${deliPeople.length} in line.`)
 }
 
 function nowServing (deliLine){
   let i = 0
-  while(i < deliLine.length){
+  while(i < deliPeople.length){
     i++
   }
-  if (deliLine >= 1) {
-    return (`Currently serving ${deliLine.shift}.`);
+  if (deliPeople >= 1) {
+    return (`Currently serving ${deliPeople.shift}.`);
   }
   else {
     return ("There is nobody waiting to be served!")
