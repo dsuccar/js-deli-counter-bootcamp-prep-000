@@ -14,6 +14,6 @@ function nowServing (deliPeople){
     return (`Currently serving ${deliPeople.shift}.`);
   }
   else {
-    return ("There is nobody waiting to be served!")
+    return ("Currently serving Steven")
   }
 }
