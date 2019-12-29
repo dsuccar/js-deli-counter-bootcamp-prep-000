@@ -5,17 +5,16 @@ function takeANumber(katzDeli,Name){
   return(`Welcome, ${Name}. You are number ${katzDeli.length} in line.`)
 }
 
-function nowServing (katzDeli){
-  let i = 0
-  while(i < katzDeli.length){
-    i++
-  }
+
+  function nowServing(katzDeli) {
   if (katzDeli.length > 0) {
-    return (`Currently serving ${katzDeli['i']}.`);
+    var nowServing = katzDeli[0];
+    katzDeli.shift();
+    return `Currently serving ${nowServing}.`;
+  } else {
+    return `There is nobody waiting to be served!`;
   }
-  else if(katzDeli.length === 0){
-    return ("There is nobody waiting to be served!")
-  }
+}
 
 
 }
