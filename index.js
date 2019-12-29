@@ -16,3 +16,11 @@ function nowServing(katzDeli) {
     return `There is nobody waiting to be served!`;
   }
 }
+
+function currentLine(line){
+  if line.length===0
+  return `the line is currently empty`;
+  else {
+    
+  }
+}
