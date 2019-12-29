@@ -10,7 +10,7 @@ function nowServing (katzDeli){
   while(i < katzDeli.length){
     i++
   }
-  if (katzDeli > 0) {
+  if (katzDeli.length > 0) {
     return (`Currently serving ${katzDeli.shift}.`);
   }
   else if(katzDeli.length === 0){
