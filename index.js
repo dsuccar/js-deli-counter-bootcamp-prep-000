@@ -10,10 +10,9 @@ function nowServing (deliPeople){
   while(i < deliPeople.length){
     i++
   }
-  if (deliPeople >= 1) {
+  if (deliPeople > 0) {
     return (`Currently serving ${deliPeople.shift}.`);
   }
-  else {
-    return ("Currently serving Steven.")
-  }
+
+
 }
