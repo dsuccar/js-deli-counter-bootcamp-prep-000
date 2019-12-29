@@ -5,7 +5,7 @@ function takeANumber(deliPeople,Name){
   return(`Welcome, ${Name}. You are number ${deliPeople.length} in line.`)
 }
 
-function nowServing (deliLine){
+function nowServing (deliPeople){
   let i = 0
   while(i < deliPeople.length){
     i++
