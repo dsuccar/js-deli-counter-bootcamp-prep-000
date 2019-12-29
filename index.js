@@ -15,6 +15,3 @@ function takeANumber(katzDeli,Name){
     return `There is nobody waiting to be served!`;
   }
 }
-
-
-}
