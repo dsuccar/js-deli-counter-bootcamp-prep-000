@@ -6,7 +6,7 @@ function takeANumber(deliLine,Name){
 }
 
 function nowServing (deliLine){
-  let (i = 0)
+  let i = 0
   while(i < deliLine.length){
     i++
   }
