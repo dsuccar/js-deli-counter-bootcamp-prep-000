@@ -10,10 +10,10 @@ function nowServing (deliLine){
   while(i < deliLine.length){
     i++
   }
-  if (deliLine >= 1) {
-    return (`Currently serving ${deliLine.shift}.`);
+  if (deliLine = 0) {
+    return ("There is nobody waiting to be served!");
   }
   else {
-    return ("There is nobody waiting to be served!")
+    return (`Currently serving ${deliLine.shift}.`)
   }
 }
