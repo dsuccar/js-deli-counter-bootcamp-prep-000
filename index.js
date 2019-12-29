@@ -13,6 +13,9 @@ function nowServing (deliPeople){
   if (deliPeople > 0) {
     return (`Currently serving ${deliPeople.shift}.`);
   }
+  else {
+    return ("There is nobody waiting to be served!")
+  }
 
 
 }
