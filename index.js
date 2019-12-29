@@ -10,7 +10,7 @@ function nowServing (deliLine){
   while(i < deliLine.length){
     i++
   }
-  if (deliLine = 1) {
+  if (deliLine >= 1) {
     return (`Currently serving ${deliLine.shift}.`);
   }
   else {
