@@ -26,5 +26,4 @@ function currentLine(line){
        lineNmbr.push(` ${i+1}. ${line[i]}`);
    	}
      console.log(); "The line is currently:" + lineNmbr;
-   }
- }
+   
