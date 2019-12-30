@@ -25,5 +25,4 @@ function currentLine(line){
   for (var i = 0; i < line.length; i++) {
        lineNmbr.push(` ${i+1}. ${line[i]}`);
    	}
-     console.log(); "The line is currently:" + lineNmbr;
-   
+     console.log("The line is currently:" + lineNmbr);
