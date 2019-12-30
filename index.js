@@ -17,6 +17,7 @@ function nowServing(katzDeli) {
   }
 }
 
+
 function currentLine(line){
   var lineNum = []
   if (line.length === 0)
